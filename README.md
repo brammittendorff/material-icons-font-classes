@@ -9,7 +9,7 @@ Material Icons Font with Classes.
 
 ```html
 <!-- After material icons font was imported. -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/voyula/material-icons-font-classes@master/dist/material-icons-font-classes.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/voyula/material-icons-font-classes@1.0.2/dist/material-icons-font-classes.min.css">
 ```
 
 ```html
@@ -24,7 +24,7 @@ Class prefix is **m_i_***.
 Via [NPM](https://www.npmjs.com/)
 
 ```bash
-$ npm install material-icons-font-classes
+$ npm install material-icons-font-classes@1.0.2
 ```
 
 Via [GIT](https://git-scm.com/) & [NPM](https://www.npmjs.com/)
