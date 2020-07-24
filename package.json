@@ -1,0 +1,23 @@
+{
+  "name": "material-icons-font-classes",
+  "version": "1.0.0",
+  "description": "Material Icons Font with Classes.",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyula/material-icons-font-classes.git"
+  },
+  "author": "voyula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voyula/material-icons-font-classes/issues"
+  },
+  "homepage": "https://github.com/voyula/material-icons-font-classes#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
