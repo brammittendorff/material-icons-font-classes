@@ -13,8 +13,9 @@ Material Icons Font with Classes.
 ```
 
 ```html
-<span class="material-icons m_i_home"></span>
 <span class="material-icons m_i_ICON_TAG_HERE"></span>
+<!-- Example -->
+<span class="material-icons m_i_home"></span>
 ```
 
 Class prefix is **m_i_***.
