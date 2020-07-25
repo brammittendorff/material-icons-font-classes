@@ -8,7 +8,7 @@ Material Icons Font with Classes.
 ## 🍽 Usage
 
 ```html
-<!-- After material icons font was imported. -->
+<!-- Add after material icons font style. -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/voyula/material-icons-font-classes@1.0.2/dist/material-icons-font-classes.min.css">
 ```
 
