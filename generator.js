@@ -8,11 +8,13 @@ var cssMinifiedContent = '';
 
 codepointFileLines.forEach(function (codepointFileLine) {
 	var lineExplode = codepointFileLine.split(' ');
-	cssContent += `.material-icons.m_i_` + lineExplode[0] + `:before {
-    content: "\\`+lineExplode[1].trim()+`";
+	if (lineExplode != '')  {
+		cssContent += `.material-icons.m_i_` + lineExplode[0] + `:before {
+	content: "\\`+lineExplode[1].trim()+`";
 };
 `;
-	cssMinifiedContent += `.material-icons.m_i_` + lineExplode[0] + `:before{content:"\\`+lineExplode[1].trim()+`"}`;
+		cssMinifiedContent += `.material-icons.m_i_` + lineExplode[0] + `:before{content:"\\`+lineExplode[1].trim()+`"}\n`;
+	}
 });
 
 fs.writeFileSync(path.resolve(__dirname, 'dist/material-icons-font-classes.css'), cssContent);
